@@ -8,11 +8,12 @@ public class AddressBook {
     public void addBuddy(BuddyInfo buddy) {
         this.buddies.add(buddy);
     }
-
     public void removeBuddy(BuddyInfo buddy) {
         this.buddies.remove(buddy);
     }
-
+    public void test() {
+        System.out.println("This method was added in change1 branch");
+    }
     public static void main(String[] args) {
         System.out.println("Address Book");
         BuddyInfo bob = new BuddyInfo();
